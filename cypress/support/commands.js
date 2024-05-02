@@ -130,9 +130,6 @@ Cypress.Commands.add('preencheInfoCartao', () => {
 
 
   cy.contains('button', 'Purchase').click()
-    .then(($input) => {
-      console.log($input)
-    })
 
 })
 
